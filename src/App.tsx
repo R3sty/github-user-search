@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="">
       <h1 className="text-pink-500">App works!</h1>
+      <h2 className="text-slate-400">Update deployment?</h2>
     </div>
   )
 }
