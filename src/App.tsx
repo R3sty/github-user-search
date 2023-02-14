@@ -10,11 +10,11 @@ function App() {
   const handleSetSearchData = (searchData: DefaultData) => setSearchData(searchData)
 
   return (
-    <div className="bg-lightGrey">
-    <div className="font-spaceMono tablet:w-[573px] tablet:h-screen tablet:mx-auto tablet:flex tablet:flex-col tablet:align-middle tablet:justify-center desktop:flex desktop:flex-col desktop:align-middle desktop:justify-center desktop:w-[730px] desktop:mx-auto">
-     <Nav/>
+    <div className="bg-lightGrey h-full w-full desktop:w-full desktop:h-full">
+      <div className="font-spaceMono tablet:w-[573px] tablet:h-screen tablet:mx-auto tablet:flex tablet:flex-col tablet:align-middle tablet:justify-center desktop:flex desktop:flex-col desktop:align-middle desktop:justify-center desktop:w-[730px] desktop:mx-auto">
+      <Nav />
       <Search handleSetSearchData={handleSetSearchData} />
-      <ProfileCard/>
+        <ProfileCard {...searchData} />
       </div>
       </div>
   )

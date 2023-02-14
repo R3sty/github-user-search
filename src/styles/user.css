@@ -1,0 +1,4 @@
+.avatar {
+    grid-area: avatar;
+    @apply hidden desktop:block;
+}

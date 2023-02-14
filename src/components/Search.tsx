@@ -24,13 +24,13 @@ export const Search = ({ handleSetSearchData }: any) => {
                 <input
                     ref={searchRef}
                     onChange={handleChange}
-                        className="ml-[9px] flex-1 truncate pr-1 text-xs font-light caret-[#0079FF] outline-none placeholder:text-bluishGrey desktop:text-s"
+                        className="ml-[9px] flex-1 truncate text-xs font-light caret-[#0079FF] outline-none placeholder:text-bluishGrey desktop:text-s"
                     placeholder={"Search Github username..."}
                     type="text"
                     />
                 </div>
                 {showNoResults && <span className='hidden pr-[14px] text-sm font-bold text-[#F74646] md:block'>No results</span>}
-                    <button className="my-[6.5px] mx-[6px] rounded-[10px] bg-blue px-4 pt-[12.5px] pb-[13.5px] text-sm text-white transition-colors hover:bg-[#60ABFF] tablet:my-[9.5px] tablet:mx-[10px] tablet:px-[23px] desktop:text-[1rem]" type="submit">Search</button>
+                    <button className="rounded-[10px] bg-blue px-3 mr-2 pt-[12.5px] pb-[13.5px] text-sm text-white transition-colors hover:bg-[#60ABFF] tablet:my-[9.5px] tablet:mx-[10px] tablet:px-[23px] desktop:text-[1rem]" type="submit">Search</button>
                 </form>
         </div>
     )
