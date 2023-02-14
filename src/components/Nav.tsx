@@ -1,6 +1,6 @@
 export const Nav = () => {
     return (
-        <div className="flex flex-cols-2 justify-between mt-4 mx-6 bg-lightGrey">
+        <div className="flex flex-cols-2 justify-between mt-4 mx-6 bg-lightGrey tablet:w-full desktop:w-full">
             <h1 className="text-black text-xxl">devfinder</h1>
             <div className="flex ">
                 <div className="text-xs pr-2 pt-2 text-bluishGrey hover:text-black">DARK</div>
