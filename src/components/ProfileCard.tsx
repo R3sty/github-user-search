@@ -20,7 +20,7 @@ export const ProfileCard = (userData: DefaultData) => {
                     <div className="text-blue text-xs col-span-2 desktop:text-m desktop:font-normal desktop:mt-4 mr-6">{userData?.login || defaultData.login}</div>
                     </div>
                    
-                    <div className="text-bluishGrey text-xs col-span-2 desktop:mt-6 desktop:pl-20">Joined {moment(userData?.created_at || defaultData.created_at).format('DD MMM yyy')}</div>
+                    <div className="text-bluishGrey text-xs col-span-2 desktop:mt-6 desktop:pl-40">Joined {moment(userData?.created_at || defaultData.created_at).format('DD MMM yyy')}</div>
                     </div>
                 <div className="mt-6 text-bluishGrey text-s col-span-3 desktop:text-m desktop:mr-6 desktop:col-span-2">{userData?.bio || "This user has no bio"}</div>
 
