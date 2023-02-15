@@ -10,8 +10,8 @@ type LinkProps = AnchorHTMLAttributes<HTMLAnchorElement | HTMLSpanElement> & Pro
 export const Links = ({ content, href, children}: LinkProps) => {
     return href !== null ? (
         <a
-        className={classnames('flex items-center gap-4 text-xs text-bluishGrey', {
-            'opacity-20': content === 'Not Available',
+        className={classnames('flex items-center gap-4 text-xs text-bluishGrey dark:text-whiteDm space-y-2', {
+            'opacity-50': content === 'Not available',
         })}
         href={href}
     >
@@ -20,7 +20,7 @@ export const Links = ({ content, href, children}: LinkProps) => {
     </a>
 ) : (
     <span
-        className={classnames('flex items-center gap-4 text-xs text-bluishGrey', {
+        className={classnames('flex items-center gap-4 text-xs text-bluishGrey dark:text-whiteDm', {
             'opacity-20': content === 'Not available',
         })}
     >
