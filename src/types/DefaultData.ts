@@ -1,7 +1,8 @@
 export interface DefaultData {
     name: string
     login: string
-    avatar_url?: string
+    avatar_url?: any
+    url: string
     bio: string
     created_at: string
     followers: number
@@ -10,6 +11,6 @@ export interface DefaultData {
     location?: string
     email?: null
     blog?: string
-    twitter_username?: null
+    twitter_username?: string
     company?: string
 }
