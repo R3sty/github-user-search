@@ -31,34 +31,47 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop-Light](./screenshots/desktop-light.png)
+![Desktop-Dark](./screenshots/desktop-dark.png)
+![Desktop-Dark](./screenshots/desktop-dark-no-results.png)
+![Mobile-Dark](./screenshots/mobile-dark.png)
+![Mobile-Light](./screenshots/mobile-light.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/R3sty/github-user-search]
+- Live Site URL: [https://r3sty.github.io/github-user-search/]
 
 ## My process
 
+First, I looked at the Figma design and started with the basic layout.
+Next, I moved on to creating components and then added the necessary logic.
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
+- [Vite JS](https://vitejs.dev/) - React framework
 - [TailwindCSS](https://tailwindcss.com/) - For styles
 
 ### What I learned
 
+Throughout the development process, I learned:
+
+It's important to start with the logic first before creating components.
+How to configure a dark mode feature.
+How to use React Hooks to improve the functionality of the app.
+The syntax for Typescript.
+How to integrate ChatGPT into my project.
+
 ### Continued development
+
+Moving forward, I plan to continue learning and experimenting with different React Hooks to further improve my projects.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [https://tailwindcss.com/docs]- TailwindCSS's documentation provides easy to understand examples
+- [https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane]- This is an amazing article which helped me deploy my Vite App to Github pages
 
 ## Author
 
@@ -67,3 +80,5 @@ Users should be able to:
 - Twitter - [@yourusername](https://twitter.com/R3XIST)
 
 ## Acknowledgments
+
+Thank you to @DanoBroz. I referenced some of of his code when I got stuck.
